@@ -3,22 +3,22 @@ Install a GridFTP Server
 
 <span class="twiki-macro DOC_STATUS_TABLE"></span> <span class="twiki-macro TOC"></span>
 
-# About this Document This page explains how to install the stand-alone Globus GridFTP server.
+##### About this Document This page explains how to install the stand-alone Globus GridFTP server.
 
 The GridFTP package contains components necessary to set up a stand-alone gsiftp server and tools used to monitor and report its performance. A stand-alone GridFTP server might be used under the following circumstances:
 
 -   A simple front-end to a filesystem allowing access over WAN - for example NFS.
 -   BeStMan is capable of distributing its workload among several gsiftp servers so if you expect large movements of data into/out of your site, multiple gsiftp servers can be set up.
 
-# Requirements
+## Requirements
 
-## Host and OS
+### Host and OS
 
 -   OS must be <span class="twiki-macro SUPPORTED_OS"></span>.
 -   [EPEL](http://fedoraproject.org/wiki/EPEL) repos enabled.
 -   Root access
 
-## Certificates
+### Certificates
 
 <span class="twiki-macro STARTSECTION">Certificates</span>
 
@@ -32,7 +32,7 @@ The GridFTP package contains components necessary to set up a stand-alone gsiftp
 
 You will also need a copy of CA certificates (see below).
 
-## Users
+### Users
 
 <span class="twiki-macro STARTSECTION">GridUsers</span> For this package to function correctly, you will have to create the users needed for grid operation. Any user that can be authenticated should be created.
 
