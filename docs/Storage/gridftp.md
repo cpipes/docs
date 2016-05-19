@@ -43,7 +43,7 @@ Note that these users must be kept in sync with the authentication method. For i
 
 <span class="twiki-macro STARTSECTION">Firewalls</span> <span class="twiki-macro INCLUDE" section="FirewallTable" lines="gridftp,portrange,portsource">Documentation/Release3.FirewallInformation</span> \\ <span class="twiki-macro ENDSECTION">Firewalls</span>
 
-If you have a multi-homed host you may be interested in reading [this section](#ConfigMultiHomed).
+If you have a multi-homed host you may be interested in reading [this section](ConfigMultiHomed).
 
 ## Engineering Considerations
 
@@ -169,7 +169,9 @@ Output goes to `/var/log/messages` by default. Do not set logging to 5 on any pr
 
 <span class="twiki-macro ENDSECTION">Environment</span>
 
-# ConfigMultiHomed —\#\# Configuring a multi-homed server
+# ConfigMultiHomed
+
+## Configuring a multi-homed server
 
 <span class="twiki-macro STARTSECTION">MultiHomed</span> The GridFTP uses control connections, data connections and IPC connections. By default it listens in all interfaces but this can be changed by editing the configuration file `/etc/gridftp.conf`.
 
