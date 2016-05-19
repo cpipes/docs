@@ -217,7 +217,8 @@ The GridFTP service can be validated by using globus-url-copy. You will need to 
 
 Note that you should preferably not try to run validation as root, as globus-url-copy will sometimes attempt to use the host certificate instead of your user certificate, with confusing results. <span class="twiki-macro ENDSECTION">Validation</span>
 
-# Gratia GridFTP Transfer Probe The [Gratia GridFTP probe](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/GratiaTransferProbe) collects the information about the Gridftp transfers and forwards it to central Gratia collector. You need to enable the probe first. To do this, make sure following is set in file /etc/gratia/gridftp-transfer/ProbeConfig
+### Gratia GridFTP Transfer Probe: 
+  The [Gratia GridFTP probe](https://twiki.grid.iu.edu/bin/view/Documentation/Release3/GratiaTransferProbe) collects the information about the Gridftp transfers and forwards it to central Gratia collector. You need to enable the probe first. To do this, make sure following is set in file /etc/gratia/gridftp-transfer/ProbeConfig
 
 ``` file
 EnableProbe="1"
