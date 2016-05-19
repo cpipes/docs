@@ -62,8 +62,6 @@ Also, you have to decide what authorization mechanism you prefer. You may use ei
 
 <span class="twiki-macro INCLUDE" section="OSGRepoBrief" TOC_SHIFT="+">YumRepositories</span> <span class="twiki-macro INCLUDE" section="OSGBriefCaCerts" TOC_SHIFT="+">InstallCertAuth</span>
 
-<span class="twiki-macro STARTSECTION">Full</span>
-
 <span class="twiki-macro STARTSECTION">Install</span> GridFTP requires a certificate package to run. If you require a specific certificate package, follow the Documentation/Release3.InstallCertAuth instructions to install it. If you do not install a grid certificate package first, the install procedure will install one for you as part of its dependencies. (usually osg-ca-certs).
 
 ## Installing the GridFTP Server
@@ -73,8 +71,6 @@ First, you will need to install the GridFTP meta-package:
 ``` rootscreen
 %UCL_PROMPT_ROOT% yum install osg-gridftp
 ```
-
-<span class="twiki-macro ENDSECTION">Install</span>
 
 # Configuration
 
