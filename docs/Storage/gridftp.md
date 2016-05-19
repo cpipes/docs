@@ -20,13 +20,10 @@ The GridFTP package contains components necessary to set up a stand-alone gsiftp
 
 ### Certificates
 
-<span class="twiki-macro STARTSECTION">Certificates</span>
-
 | Certificate      | User that owns certificate | Path to certificate                                                       |
 |:-----------------|:---------------------------|:--------------------------------------------------------------------------|
 | Host certificate | `root`                     | `/etc/grid-security/hostcert.pem` <br\> `/etc/grid-security/hostkey.pem` |
 
-<span class="twiki-macro ENDSECTION">Certificates</span>
 
 [Instructions](InstallCertScripts) to request a service certificate.
 
